@@ -38,3 +38,6 @@ deploy
 docs/_*
 /manage.py
 /dev
+
+#tags
+tags
