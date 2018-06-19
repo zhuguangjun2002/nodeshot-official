@@ -1,0 +1,200 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-14 15:10+0800\n"
+"PO-Revision-Date: 2018-06-14 14:59+0806\n"
+"Last-Translator:   <admin@maiaktor.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Translated-Using: django-rosetta 0.7.13\n"
+
+#: static/ui/lib/js/backbone-forms-bootstrap3.js:14
+msgid "Cancel"
+msgstr "取消"
+
+#: static/ui/lib/js/leaflet.measurecontrol-customized.js:66
+msgid "elevation profile"
+msgstr ""
+
+#: static/ui/nodeshot/js/app.js:258
+msgid "confirmation mail sent"
+msgstr "确认邮件发送"
+
+#: static/ui/nodeshot/js/models.js:257
+msgid "Name"
+msgstr "名称"
+
+#: static/ui/nodeshot/js/models.js:258
+msgid "Layer"
+msgstr "图层"
+
+#: static/ui/nodeshot/js/models.js:270
+msgid "Geometry"
+msgstr "地理坐标"
+
+#: static/ui/nodeshot/js/models.js:271
+msgid "Address"
+msgstr "地址"
+
+#: static/ui/nodeshot/js/models.js:272
+msgid "Elevation"
+msgstr "高程"
+
+#: static/ui/nodeshot/js/models.js:273
+msgid "Description"
+msgstr "描述"
+
+#: static/ui/nodeshot/js/models.js:442
+msgid "First name"
+msgstr "名"
+
+#: static/ui/nodeshot/js/models.js:443
+msgid "Last name"
+msgstr "姓"
+
+#: static/ui/nodeshot/js/models.js:444
+msgid "City"
+msgstr "城市"
+
+#: static/ui/nodeshot/js/models.js:445
+msgid "Country"
+msgstr "国家"
+
+#: static/ui/nodeshot/js/models.js:446
+msgid "Bio"
+msgstr "个人简练"
+
+#: static/ui/nodeshot/js/models.js:522
+msgid "problem while logging out"
+msgstr "当退出时有问题"
+
+#: static/ui/nodeshot/js/models.js:617
+msgid "Message"
+msgstr "消息"
+
+#: static/ui/nodeshot/js/models.js:686
+msgid "Current password"
+msgstr "当前密码"
+
+#: static/ui/nodeshot/js/models.js:687
+msgid "New password"
+msgstr "新密码"
+
+#: static/ui/nodeshot/js/models.js:688
+msgid "New password (confirmation)"
+msgstr "新密码（确认）"
+
+#: static/ui/nodeshot/js/utils.js:255
+msgid "ok"
+msgstr "确定"
+
+#: static/ui/nodeshot/js/views/contact.js:22
+msgid "Contact"
+msgstr "联系"
+
+#: static/ui/nodeshot/js/views/contact.js:38
+msgid "Send"
+msgstr "发送"
+
+#: static/ui/nodeshot/js/views/layer-list.js:30
+msgid "Layer list"
+msgstr "图层列表"
+
+#: static/ui/nodeshot/js/views/map.js:284
+msgid "Map"
+msgstr "地图"
+
+#: static/ui/nodeshot/js/views/map.js:544
+#: static/ui/nodeshot/js/views/node-details.js:509
+msgid "not found"
+msgstr "没有找到"
+
+#: static/ui/nodeshot/js/views/map.js:798
+#: static/ui/nodeshot/js/views/map.js:933
+#: static/ui/nodeshot/js/views/node-list.js:128
+msgid "not implemented yet"
+msgstr "功能尚未实现"
+
+#: static/ui/nodeshot/js/views/map.js:1117
+#: static/ui/nodeshot/js/views/map.js:1129
+msgid "Add node"
+msgstr "添加节点"
+
+#: static/ui/nodeshot/js/views/node-details.js:253
+#: static/ui/nodeshot/js/views/node-details.js:335
+#: static/ui/nodeshot/js/views/node-details.js:483
+msgid "error"
+msgstr "错误"
+
+#: static/ui/nodeshot/js/views/node-details.js:419
+msgid "Edit"
+msgstr "编辑"
+
+#: static/ui/nodeshot/js/views/node-details.js:423
+#: static/ui/nodeshot/js/views/user.js:107
+msgid "Save"
+msgstr "保存"
+
+#: static/ui/nodeshot/js/views/node-details.js:439
+msgid "drag to change coordinates"
+msgstr "拖动以便更改坐标"
+
+#: static/ui/nodeshot/js/views/node-list.js:53
+msgid "Node list"
+msgstr "节点列表"
+
+#: static/ui/nodeshot/js/views/page.js:32
+#: static/ui/nodeshot/js/views/user.js:41
+msgid "the requested page was not found"
+msgstr "请求的页面没有找到"
+
+#: static/ui/nodeshot/js/views/page.js:36
+#: static/ui/nodeshot/js/views/user.js:45
+msgid "there was an error while retrieving the page"
+msgstr "当获取页面时有一个错误"
+
+#: static/ui/nodeshot/js/views/password-reset.js:25
+#: static/ui/nodeshot/js/views/password-reset.js:43
+msgid "Reset Password"
+msgstr "重置密码"
+
+#: static/ui/nodeshot/js/views/password-reset.js:69
+msgid "Check your inbox for the password reset link."
+msgstr "检查您的收件箱中的密码重置链接。"
+
+#: static/ui/nodeshot/js/views/user.js:99
+msgid "Edit \""
+msgstr "编辑"
+
+#: static/ui/nodeshot/js/views/user.js:217
+msgid "Account"
+msgstr "账号"
+
+#: static/ui/nodeshot/js/views/user.js:278
+#: static/ui/nodeshot/js/views/user.js:328
+msgid "Do you confirm?"
+msgstr "你确认么？"
+
+#: static/ui/nodeshot/js/views/user.js:279
+#: static/ui/nodeshot/js/views/user.js:329
+msgid "yes"
+msgstr "是的"
+
+#: static/ui/nodeshot/js/views/user.js:283
+#: static/ui/nodeshot/js/views/user.js:333
+msgid "no"
+msgstr "不"
+
+#: static/ui/nodeshot/js/views/user.js:365
+msgid "Change account password"
+msgstr "改变账号密码"

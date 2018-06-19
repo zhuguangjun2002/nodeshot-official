@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-16 17:43+0800\n"
+"PO-Revision-Date: 2018-06-16 17:54+0806\n"
+"Last-Translator:   <user@163.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Translated-Using: django-rosetta 0.7.13\n"
+
+#: admin.py:47
+msgid "view nodes"
+msgstr "查看节点"
+
+#: admin.py:55
+msgid "Publish selected layers (automatically publishes all nodes of layer)"
+msgstr "发布选定的图层（自动发布图层的所有节点）"
+
+#: admin.py:61
+msgid ""
+"Unpublish selected layers (automatically unpublishes all nodes of layer)"
+msgstr "取消发布选定的图层（自动取消发布图层的所有节点）"
+
+#: models/layer.py:23
+msgid "name"
+msgstr "名称"
+
+#: models/layer.py:25
+msgid "description"
+msgstr "描述"
+
+#: models/layer.py:26
+msgid "short description of this layer"
+msgstr "该图层的简称"
+
+#: models/layer.py:27
+msgid "extended text"
+msgstr "扩展文本"
+
+#: models/layer.py:28
+msgid "extended description, specific instructions, links, ecc."
+msgstr "扩展描述，特定的指令，链接"
+
+#: models/layer.py:30
+msgid "published"
+msgstr "已发布"
+
+#: models/layer.py:31
+msgid "is it external?"
+msgstr "是否是外部"
+
+#: models/layer.py:33
+msgid "area"
+msgstr "区域"
+
+#: models/layer.py:33
+msgid ""
+"If a polygon is used nodes of this layer will have to be contained in it."
+"                                                        If a point is used "
+"nodes of this layer can be located anywhere. Lines are not allowed."
+msgstr "如果使用多边形，则必须将该图层的节点包含在其中。如果使用某个点，则可以将该图层的节点放置在任何位置。线是不允许的。"
+
+#: models/layer.py:36
+msgid "organization"
+msgstr "组织"
+
+#: models/layer.py:37
+msgid "Organization which is responsible to manage this layer"
+msgstr "负责管理该图层的组织"
+
+#: models/layer.py:38
+msgid "Website"
+msgstr "网站"
+
+#: models/layer.py:39
+msgid "email"
+msgstr "邮箱"
+
+#: models/layer.py:40
+msgid ""
+"possibly an email address that delivers messages to all the active participants;\n"
+"                                          if you don't have such an email you can add specific users in the \"mantainers\" field"
+msgstr ""
+"可能的一个邮件地址，用于发送消息给所有活跃的参与者;\n"
+"如果您没有这样的电子邮件，则可以在“维护者”字段中添加特定用户"
+
+#: models/layer.py:42
+msgid "mantainers"
+msgstr "维护者"
+
+#: models/layer.py:43
+msgid ""
+"you can specify the users who are mantaining this layer so they will receive"
+" emails from the system"
+msgstr "您可以指定维护此图层的用户，以便他们从系统接收电子邮件"
+
+#: models/layer.py:46
+msgid ""
+"minimum distance between nodes in meters, 0 means there is no minimum "
+"distance"
+msgstr "以米为单位的节点之间的最小距离，0表示没有最小距离"
+
+#: models/layer.py:47
+msgid "new nodes allowed"
+msgstr "允许增加新节点"
+
+#: models/layer.py:47
+msgid "indicates whether users can add new nodes to this layer"
+msgstr "表明用户是否可以向该图层添加新节点"
+
+#: models/layer.py:48
+msgid "extra data"
+msgstr "额外数据"
+
+#: models/layer.py:143 tests.py:70
+msgid "New nodes are not allowed for this layer"
+msgstr "此图层不允许有新的节点"
+
+#: models/layer.py:155 tests.py:91
+#, python-format
+msgid "Distance between nodes cannot be less than %s meters"
+msgstr "节点之间的距离不能小于 %s 米"
+
+#: models/layer.py:164 tests.py:141
+msgid "Node must be inside layer area"
+msgstr "节点必须位于图层区域内"
+
+#: views.py:63
+msgid "Layer not found"
+msgstr "找不到图层"

@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-15 10:38+0800\n"
+"PO-Revision-Date: 2018-06-16 17:34+0806\n"
+"Last-Translator:   <user@163.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Translated-Using: django-rosetta 0.7.13\n"
+
+#: models/notification.py:19
+msgid "type"
+msgstr "类型"
+
+#: models/notification.py:21
+msgid "from user"
+msgstr "来自用户"
+
+#: models/notification.py:25
+msgid "to user"
+msgstr "发送给用户"
+
+#: models/notification.py:34
+msgid "text"
+msgstr "文本"
+
+#: models/notification.py:35
+msgid "read?"
+msgstr "读了？"
+
+#: models/notification.py:47
+msgid "A user cannot send a notification to herself/himself"
+msgstr "用户不能向自己发送通知"
+
+#: models/user_settings.py:27
+msgid ""
+"-1 (less than 0): disabled; 0: enabled for all;                            1"
+" (less than 0): enabled for those in the specified distance range (km)"
+msgstr "-1（小于0）：禁用; 0：全部启用; 1（小于0）：对于指定距离范围内（公里）"
+
+#: models/user_settings.py:48 models/user_settings.py:68
+msgid "user"
+msgstr "用户"
+
+#: models/user_settings.py:54 models/user_settings.py:55
+msgid "user web notification settings"
+msgstr "用户网络通知设置"
+
+#: models/user_settings.py:58
+#, python-format
+msgid "web notification settings for %s"
+msgstr "网络通知设置因为 %s"
+
+#: models/user_settings.py:74 models/user_settings.py:75
+msgid "user email notification settings"
+msgstr "用户邮件通知设置"
+
+#: models/user_settings.py:78
+#, python-format
+msgid "email notification settings for %s"
+msgstr "邮件通知设置因为 %s"
+
+#: settings.py:7
+#, python-format
+msgid "A new node with name \"%(name)s\" has been created."
+msgstr "一个新的节点已经被创建，节点的名称为 \"%(name)s\""
+
+#: settings.py:8
+#, python-format
+msgid ""
+"Status of node \"%(name)s\" has changed from \"%(old_status)s\" to "
+"\"%(new_status)s\"."
+msgstr "节点 \"%(name)s\"  的状态，已经被更改。从状态  \"%(old_status)s\" 变成  \"%(new_status)s\" 。"
+
+#: settings.py:9
+#, python-format
+msgid ""
+"Status of your node \"%(name)s\" changed from \"%(old_status)s\" to "
+"\"%(new_status)s\"."
+msgstr "你的节点  \"%(name)s\" 的状态，从  \"%(old_status)s\" 变成  \"%(new_status)s\" 。"
+
+#: settings.py:10
+#, python-format
+msgid "Node \"%(name)s\" with ID #%(id)s was deleted."
+msgstr "节点 \"%(name)s\" 拥有ID #%(id)s 被删除了。"

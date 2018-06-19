@@ -1,0 +1,592 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-14 15:08+0800\n"
+"PO-Revision-Date: 2018-06-16 20:05+0806\n"
+"Last-Translator:   <user@163.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Translated-Using: django-rosetta 0.7.13\n"
+
+#: templates/base.html:69 templates/index.html:276
+msgid "Loading"
+msgstr "加载"
+
+#: templates/base.html:70
+msgid "Warning: javascript disabled!"
+msgstr "警告：JavaScript禁用！"
+
+#: templates/base.html:70
+msgid "This website needs javascript in order to work."
+msgstr "这个网站需要JavaScript才能工作。"
+
+#: templates/base.html:130
+#, python-format
+msgid ""
+"By signing up you declare to have accepted our <a "
+"href=\"%(PRIVACY_POLICY_LINK)s\" class=\"js-"
+"dismiss\">privacy&nbsp;policy</a><br />and <a "
+"href=\"%(TERMS_OF_SERVICE_LINK)s\" class=\"js-"
+"dismiss\">terms&nbsp;of&nbsp;service</a>."
+msgstr ""
+"通过注册你接受我们条款<a href=\"%(PRIVACY_POLICY_LINK)s\" class=\"js-"
+"dismiss\">privacy&nbsp;policy</a><br />and <a "
+"href=\"%(TERMS_OF_SERVICE_LINK)s\" class=\"js-"
+"dismiss\">terms&nbsp;of&nbsp;service</a>."
+
+#: templates/base.html:138
+msgid "Sign up with Facebook"
+msgstr "用Facebook注册"
+
+#: templates/base.html:146
+msgid "Sign up with Google"
+msgstr "用Google注册"
+
+#: templates/base.html:154
+msgid "Sign up with Github"
+msgstr "用Github注册"
+
+#: templates/base.html:162 templates/base.html.py:239
+msgid "or"
+msgstr ""
+
+#: templates/base.html:192 templates/base.html.py:270 templates/index.html:93
+msgid "Sign up"
+msgstr "注册"
+
+#: templates/base.html:195
+msgid "Already have an account?"
+msgstr "已经有账户了吗？"
+
+#: templates/base.html:195 templates/base.html.py:265 templates/index.html:99
+msgid "Sign in"
+msgstr "登录"
+
+#: templates/base.html:215
+msgid "Sign in with Facebook"
+msgstr "用Facebook登录"
+
+#: templates/base.html:223
+msgid "Sign in with Google"
+msgstr "用Google登录"
+
+#: templates/base.html:231
+msgid "Sign in with Github"
+msgstr "用Github登录"
+
+#: templates/base.html:262
+msgid "Stay signed in"
+msgstr "保留登录"
+
+#: templates/base.html:268
+msgid "Forgot your password?"
+msgstr "忘记密码了吗？"
+
+#: templates/base.html:270
+msgid "Don't have an account yet?"
+msgstr "还没有账户吗？"
+
+#: templates/includes/account.html:2 templates/index.html:71
+msgid "My account"
+msgstr "我的帐户"
+
+#: templates/includes/account.html:4
+msgid "Profile"
+msgstr "简介"
+
+#: templates/includes/account.html:7
+msgid "First name"
+msgstr "名"
+
+#: templates/includes/account.html:10
+msgid "Last name"
+msgstr "姓"
+
+#: templates/includes/account.html:13
+msgid "City"
+msgstr "城市"
+
+#: templates/includes/account.html:16
+msgid "Country"
+msgstr "国家"
+
+#: templates/includes/account.html:20 templates/includes/user-details.html:27
+msgid "Bio"
+msgstr "个人简历"
+
+#: templates/includes/account.html:25 templates/includes/account.html.py:65
+msgid "Edit"
+msgstr "编辑"
+
+#: templates/includes/account.html:28
+msgid "View"
+msgstr "查看"
+
+#: templates/includes/account.html:31
+msgid "Change password"
+msgstr "更改密码"
+
+#: templates/includes/account.html:40
+msgid ""
+"Avatars are managed through the popular <a href=\"https://gravatar.com\" "
+"target=\"_blank\">gravatar</a> service."
+msgstr ""
+"头像是通过热门<a href=\"https://gravatar.com\" target=\"_blank\">gravatar</a> "
+"服务进行管理。"
+
+#: templates/includes/account.html:41
+msgid ""
+"If you don't have one yet, create an account on "
+"<strong>gravatar.com</strong> and associate your current email address to "
+"it."
+msgstr "如果您还没有，请在<strong> gravatar.com </ strong>上创建一个帐户，并将您的当前电子邮件地址与其关联。"
+
+#: templates/includes/account.html:42
+msgid "Edit on gravatar.com"
+msgstr "在gravatar.com上编辑"
+
+#: templates/includes/account.html:46 templates/includes/user-details.html:34
+msgid "Links"
+msgstr "链接"
+
+#: templates/includes/account.html:53
+msgid "url"
+msgstr "url"
+
+#: templates/includes/account.html:54
+msgid "description"
+msgstr "描述"
+
+#: templates/includes/account.html:55 templates/includes/account.html.py:97
+msgid "actions"
+msgstr "动作"
+
+#: templates/includes/account.html:68 templates/includes/account.html.py:120
+msgid "Delete"
+msgstr "删除"
+
+#: templates/includes/account.html:74
+msgid "No links to show"
+msgstr "没有链接需要显示"
+
+#: templates/includes/account.html:82 templates/includes/account.html.py:135
+msgid "Add"
+msgstr "添加"
+
+#: templates/includes/account.html:87
+msgid "Email addresses"
+msgstr "邮箱地址"
+
+#: templates/includes/account.html:94
+msgid "email address"
+msgstr "邮箱地址"
+
+#: templates/includes/account.html:95
+msgid "verified"
+msgstr "已验证"
+
+#: templates/includes/account.html:96
+msgid "primary"
+msgstr "主要的"
+
+#: templates/includes/account.html:110
+msgid "Resend confirmation"
+msgstr "重新发送确认"
+
+#: templates/includes/account.html:115
+msgid "Make primary"
+msgstr "变成主要的"
+
+#: templates/includes/account.html:127
+msgid "No email addresses"
+msgstr "没有邮箱地址"
+
+#: templates/includes/layer-details.html:7
+#: templates/includes/node-details.html:26
+#: templates/includes/user-details.html:9
+msgid "contact"
+msgstr "联系"
+
+#: templates/includes/layer-details.html:9
+#: templates/includes/node-details.html:29
+#: templates/includes/user-details.html:12
+msgid "Press CTRL+C to copy"
+msgstr "请按住CTRL+C以便进行拷贝"
+
+#: templates/includes/layer-details.html:9
+#: templates/includes/node-details.html:29
+#: templates/includes/user-details.html:12
+msgid "permalink"
+msgstr "永久链接"
+
+#: templates/includes/layer-details.html:26
+#: templates/includes/layer-list.html:12
+msgid "Organization"
+msgstr "组织"
+
+#: templates/includes/layer-details.html:36
+msgid "Website"
+msgstr "网站"
+
+#: templates/includes/layer-details.html:45
+#: templates/includes/layer-list.html:13
+msgid "New nodes allowed?"
+msgstr "允许新增节点?"
+
+#: templates/includes/layer-details.html:53
+msgid "Is external?"
+msgstr "是外部的么？"
+
+#: templates/includes/layer-details.html:64
+msgid "Layer list"
+msgstr "图层列表"
+
+#: templates/includes/layer-list.html:4 templates/includes/map.html:76
+msgid "Layers"
+msgstr "图层"
+
+#: templates/includes/layer-list.html:11 templates/includes/node-list.html:99
+msgid "Name"
+msgstr "名字"
+
+#: templates/includes/layer-list.html:14
+msgid "External?"
+msgstr "外部的？"
+
+#: templates/includes/map.html:10
+msgid "Click on the map to indicate the location"
+msgstr "点击地图指示位置"
+
+#: templates/includes/map.html:11 templates/includes/map.html.py:17
+msgid "cancel"
+msgstr "取消"
+
+#: templates/includes/map.html:15
+msgid "Drag to adjust"
+msgstr "拖动以进行调整"
+
+#: templates/includes/map.html:16
+msgid "confirm"
+msgstr "确认"
+
+#: templates/includes/map.html:25 templates/includes/map.html.py:89
+msgid "Legend"
+msgstr "图例"
+
+#: templates/includes/map.html:36
+msgid "Hide legend"
+msgstr "隐藏图例"
+
+#: templates/includes/map.html:40
+msgid "Control map data"
+msgstr "控制地图数据"
+
+#: templates/includes/map.html:42 templates/includes/map.html.py:220
+msgid "Add new node"
+msgstr "添加新的地点"
+
+#: templates/includes/map.html:45
+msgid "Toggle 3D view"
+msgstr "切换3D视图"
+
+#: templates/includes/map.html:48
+msgid "Map tools"
+msgstr "地图工具"
+
+#: templates/includes/map.html:51
+msgid "Map preferences"
+msgstr "地图偏好"
+
+#: templates/includes/map.html:53
+msgid "Toggle legend"
+msgstr "切换刻印文字"
+
+#: templates/includes/map.html:61
+msgid "Map base"
+msgstr "基础地图"
+
+#: templates/includes/map.html:109
+msgid "measure distance"
+msgstr "测量距离"
+
+#: templates/includes/map.html:116
+msgid "measure area"
+msgstr "测量区域"
+
+#: templates/includes/map.html:125
+msgid "elevation profile"
+msgstr "海拔剖面"
+
+#: templates/includes/map.html:133
+msgid "drop placeholder"
+msgstr "放置占位符"
+
+#: templates/includes/map.html:209
+msgid "Details"
+msgstr "详细"
+
+#: templates/includes/map.html:214
+msgid "Metric type"
+msgstr "度量类型"
+
+#: templates/includes/map.html:215
+msgid "Metric value"
+msgstr "度量值"
+
+#: templates/includes/map.html:216 templates/includes/node-details.html:71
+#: templates/includes/node-list.html:38 templates/includes/node-list.html:101
+msgid "Layer"
+msgstr "图层"
+
+#: templates/includes/node-details.html:31
+msgid "edit"
+msgstr "编辑"
+
+#: templates/includes/node-details.html:36
+#: templates/includes/node-details.html:44
+msgid "General info"
+msgstr "通用信息"
+
+#: templates/includes/node-details.html:61
+#: templates/includes/node-list.html:48 templates/includes/node-list.html:100
+msgid "Status"
+msgstr "状态"
+
+#: templates/includes/node-details.html:80
+msgid "Address"
+msgstr "地址"
+
+#: templates/includes/node-details.html:90
+msgid "Elevation"
+msgstr "海拔"
+
+#: templates/includes/node-details.html:93
+msgid "meters"
+msgstr "米"
+
+#: templates/includes/node-details.html:116
+msgid "Added"
+msgstr "已添加"
+
+#: templates/includes/node-details.html:124
+#: templates/includes/node-list.html:104
+msgid "Updated"
+msgstr "更新"
+
+#: templates/includes/node-details.html:133
+msgid "Rating"
+msgstr "评级"
+
+#: templates/includes/node-details.html:143
+msgid "number of ratings"
+msgstr "等级的数目"
+
+#: templates/includes/node-details.html:158
+msgid "Comments"
+msgstr "评论"
+
+#: templates/includes/node-details.html:169
+msgid "Join the discussion..."
+msgstr "加入讨论"
+
+#: templates/includes/node-details.html:175
+msgid "leave comment"
+msgstr "离开评论"
+
+#: templates/includes/node-details.html:181
+msgid "Sign in to comment"
+msgstr "登录进行评论"
+
+#: templates/includes/node-list.html:4
+msgid "Nodes"
+msgstr "节点"
+
+#: templates/includes/node-list.html:27
+msgid "Quick search"
+msgstr "快速搜索"
+
+#: templates/includes/node-list.html:33
+msgid "Filter"
+msgstr "过滤"
+
+#: templates/includes/node-list.html:40 templates/includes/node-list.html:50
+msgid "All"
+msgstr "所有"
+
+#: templates/includes/node-list.html:58 templates/includes/node-list.html:102
+msgid "User"
+msgstr "用户"
+
+#: templates/includes/node-list.html:60
+msgid "Any user"
+msgstr "任意用户"
+
+#: templates/includes/node-list.html:66
+msgid "Created on"
+msgstr "创建于"
+
+#: templates/includes/node-list.html:68
+msgid "Any date"
+msgstr "任何日期"
+
+#: templates/includes/node-list.html:69
+msgid "Today"
+msgstr "今天"
+
+#: templates/includes/node-list.html:70
+msgid "Past 7 days"
+msgstr "过去7天"
+
+#: templates/includes/node-list.html:71
+msgid "This month"
+msgstr "本月"
+
+#: templates/includes/node-list.html:72
+msgid "This year"
+msgstr "今年"
+
+#: templates/includes/node-list.html:80
+msgid "results"
+msgstr "结果"
+
+#: templates/includes/node-list.html:83
+msgid "reset filter settings"
+msgstr "重置过滤设置"
+
+#: templates/includes/node-list.html:89
+msgid "Add node"
+msgstr "添加节点"
+
+#: templates/includes/node-list.html:103
+msgid "Created"
+msgstr "创建"
+
+#: templates/includes/node-list.html:116
+msgid "previous"
+msgstr "前一个"
+
+#: templates/includes/node-list.html:119
+msgid "next"
+msgstr "下一个"
+
+#: templates/includes/node-list.html:121
+msgid "of"
+msgstr ""
+
+#: templates/includes/node-list.html:135
+msgid "Choose action"
+msgstr "选择动作"
+
+#: templates/includes/node-list.html:146
+msgid "Select all"
+msgstr "选择所有"
+
+#: templates/includes/user-details.html:6
+msgid "my account"
+msgstr "我的账号"
+
+#: templates/includes/user-details.html:11
+msgid "nodes"
+msgstr "节点"
+
+#: templates/includes/user-details.html:20
+msgid "Joined on"
+msgstr "加入"
+
+#: templates/includes/user-details.html:21
+msgid "Last seen on"
+msgstr "最近一次看见"
+
+#: templates/index.html:31
+msgid "Search for data"
+msgstr "搜索数据"
+
+#: templates/index.html:42 templates/index.html.py:198
+#: templates/index.html:227
+msgid "nothing found"
+msgstr "没有找到"
+
+#: templates/index.html:66
+msgid "My profile"
+msgstr "我的简介"
+
+#: templates/index.html:77
+msgid "Admin site"
+msgstr "管理站点"
+
+#: templates/index.html:83
+msgid "Logout"
+msgstr "退出"
+
+#: templates/index.html:127
+msgid "No menu item yet"
+msgstr "没有菜单条目"
+
+#: templates/index.html:140
+msgid "Notifications"
+msgstr "通知"
+
+#: templates/index.html:143 templates/index.html.py:145
+msgid "See all"
+msgstr "查看所有"
+
+#: templates/index.html:144 templates/index.html.py:146
+msgid "Settings"
+msgstr "设置"
+
+#: templates/index.html:161
+msgid "Nothing interesting yet!"
+msgstr "没有有趣的！"
+
+#: templates/index.html:243 templates/index.html.py:258
+msgid "Save"
+msgstr "保存"
+
+#: templates/index.html:247 templates/index.html.py:262
+msgid "Cancel"
+msgstr "取消"
+
+#: templates/index.html:277
+msgid "cancel&nbsp;operation"
+msgstr "取消&nbsp;操作"
+
+#: templates/index.html:296
+msgid "Email sent successfully!"
+msgstr "邮件发送成功！"
+
+#: templates/index.html:297
+msgid "Take me back to"
+msgstr "返回"
+
+#: templates/profiles/password_reset_from_key.html:7
+msgid "Bad Token"
+msgstr "不好的令牌"
+
+#: templates/profiles/password_reset_from_key.html:7
+#: templates/profiles/password_reset_from_key.html:26
+msgid "Change Password"
+msgstr "变更密码"
+
+#: templates/profiles/password_reset_from_key.html:11
+msgid ""
+"The password reset link is invalid, probably because it has already been "
+"used."
+msgstr "密码重置链接无效，可能是因为它已经被使用了。"
+
+#: templates/profiles/password_reset_from_key.html:30
+msgid "You successfully changed your password!"
+msgstr "您成功地更改了密码！"
+
+#: templates/profiles/password_reset_from_key.html:31
+msgid "Go to the homepage to login"
+msgstr "转到主页进行登录"

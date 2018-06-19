@@ -1,0 +1,260 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-16 17:56+0800\n"
+"PO-Revision-Date: 2018-06-16 18:35+0806\n"
+"Last-Translator:   <user@163.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Translated-Using: django-rosetta 0.7.13\n"
+
+#: admin.py:39 views.py:89
+msgid "Message sent successfully"
+msgstr "消息已成功发送"
+
+#: admin.py:40
+msgid "Send selected messages"
+msgstr "发送选定的消息"
+
+#: models/choices.py:19
+msgid "Don't schedule, send immediately"
+msgstr "不要调度，立即发送"
+
+#: models/choices.py:20
+msgid "Schedule"
+msgstr "时间表"
+
+#: models/choices.py:24
+msgid "Send to all"
+msgstr "发送给所有人"
+
+#: models/choices.py:25
+msgid "Send accordingly to selected filters"
+msgstr "按照所选过滤器进行发送"
+
+#: models/choices.py:29
+msgid "users of the selected groups"
+msgstr "选中的组的用户"
+
+#: models/choices.py:30
+msgid "users which have a node in one of the selected layers"
+msgstr "用户其拥有的一个节点，位于选中的图层里面"
+
+#: models/choices.py:31
+msgid "chosen users"
+msgstr "选择的用户"
+
+#: models/choices.py:42
+msgid "error"
+msgstr "错误"
+
+#: models/choices.py:43
+msgid "draft"
+msgstr "草稿"
+
+#: models/choices.py:44
+msgid "scheduled"
+msgstr "已调度"
+
+#: models/choices.py:45
+msgid "sent"
+msgstr "发送"
+
+#: models/choices.py:46
+msgid "cancelled"
+msgstr "取消"
+
+#: models/choices.py:64
+msgid "super users"
+msgstr "超级用户"
+
+#: models/choices.py:68
+msgid "Error"
+msgstr "错误"
+
+#: models/choices.py:69
+msgid "Not sent yet"
+msgstr "尚未发送"
+
+#: models/choices.py:70
+msgid "Sent"
+msgstr "发送"
+
+#: models/choices.py:71
+msgid "Cancelled"
+msgstr "取消"
+
+#: models/inward.py:31 models/outward.py:27
+msgid "status"
+msgstr "状态"
+
+#: models/inward.py:35
+msgid "user"
+msgstr "用户"
+
+#: models/inward.py:36
+msgid "name"
+msgstr "名字"
+
+#: models/inward.py:37
+msgid "email"
+msgstr "电邮"
+
+#: models/inward.py:38 models/outward.py:30
+msgid "message"
+msgstr "消息"
+
+#: models/inward.py:42
+msgid "ip address"
+msgstr "ip地址"
+
+#: models/inward.py:47
+msgid "Inward message"
+msgstr "内向消息"
+
+#: models/inward.py:48
+msgid "Inward messages"
+msgstr "内向消息"
+
+#: models/inward.py:53
+#, python-format
+msgid "Message from %(from)s to %(to)s"
+msgstr "消息从  %(from)s 到 %(to)s"
+
+#: models/inward.py:58
+msgid "If sender is not specified from_name and from_email must be filled in."
+msgstr "如果未指定发件人 from_name，并且必须填写 from_email。"
+
+#: models/inward.py:92
+#, python-format
+msgid "Contact request from %(sender_name)s - %(site)s"
+msgstr "联系人请求，来自 %(sender_name)s - %(site)s"
+
+#: models/outward.py:29
+msgid "subject"
+msgstr "主题"
+
+#: models/outward.py:34
+msgid "schedule sending"
+msgstr "计划发送"
+
+#: models/outward.py:37
+msgid "scheduled date"
+msgstr "预定日期"
+
+#: models/outward.py:38
+msgid "scheduled time"
+msgstr "预定时间"
+
+#: models/outward.py:42
+msgid "recipient filtering"
+msgstr "收件人筛选"
+
+#: models/outward.py:47
+msgid "specify recipient filters"
+msgstr "指定收件人过滤器"
+
+#: models/outward.py:51
+msgid "filter specific groups of users"
+msgstr "过滤特定的用户组"
+
+#: models/outward.py:54
+msgid "layers"
+msgstr "图层"
+
+#: models/outward.py:56
+msgid "users"
+msgstr "用户"
+
+#: models/outward.py:59
+msgid "Outward message"
+msgstr "外向消息"
+
+#: models/outward.py:60
+msgid "Outward messages"
+msgstr "外向消息"
+
+#: models/outward.py:253
+msgid ""
+"If message is scheduled both fields \"scheduled date\" and \"scheduled "
+"time\" must be specified"
+msgstr "如果‘消息’被’安排计划‘，则必须指定“预定日期”和“预定时间”两个字段"
+
+#: models/outward.py:256
+msgid "The scheduled date is set to a past date"
+msgstr "“预定日期”被设置为一个过去的日期"
+
+#: models/outward.py:260
+msgid ""
+"If \"recipient filtering\" is active one of the filtering options should be "
+"selected"
+msgstr "如果“收件人筛选”处于活动状态，则应选择其中一个筛选选项"
+
+#: models/outward.py:264
+msgid ""
+"If group filtering is active at least one group of users should be selected"
+msgstr "如果组过滤处于活动状态，则至少应选择一组用户"
+
+#: settings.py:8
+msgid "midnight"
+msgstr "午夜"
+
+#: settings.py:9
+msgid "04:00 AM"
+msgstr "凌晨 04:00"
+
+#: templates/mailing/inward_message.txt:1
+#, python-format
+msgid "A \"%(site)s\" user would like to get in touch with you."
+msgstr "一个  \"%(site)s\" 用户希望与您取得联系。"
+
+#: templates/mailing/inward_message.txt:3
+msgid "Name"
+msgstr "名字"
+
+#: templates/mailing/inward_message.txt:4
+msgid "E-mail"
+msgstr "电子邮箱"
+
+#: templates/mailing/inward_message.txt:6
+msgid "Message"
+msgstr "消息"
+
+#: templates/mailing/inward_message.txt:11
+msgid "You are receiving this email because your account is related to"
+msgstr "您收到此电子邮件是因为您的帐户与此相关"
+
+#: tests.py:73
+msgid "If sender is not specified from_name and from_email must be filled in"
+msgstr "如果未指定发件人from_name，并且必须填写from_email"
+
+#: tests.py:81
+msgid "This field cannot be blank"
+msgstr "该字段不能为空"
+
+#: views.py:46 views.py:58
+msgid "Not Found"
+msgstr "未找到"
+
+#: views.py:48 views.py:61
+msgid "This resource cannot be contacted"
+msgstr "此资源无法联系"
+
+#: views.py:49
+msgid "Method Not Allowed"
+msgstr "方法不允许"
+
+#: views.py:91
+msgid "Something went wrong. The email was not sent."
+msgstr "出了些问题。该电子邮件未发送。"
