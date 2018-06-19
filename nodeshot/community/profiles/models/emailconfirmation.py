@@ -7,7 +7,7 @@ from django.core.mail import send_mail
 from django.core.urlresolvers import reverse, NoReverseMatch
 from django.core.exceptions import ValidationError
 from django.template.loader import render_to_string
-from django.utils.translation import gettext_lazy as _
+from django.utils.translation import ugettext_lazy as _
 from django.utils import timezone
 
 from ..signals import email_confirmed, email_confirmation_sent
