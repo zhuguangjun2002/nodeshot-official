@@ -1,0 +1,15 @@
+Create database
+Become postgres user:
+----------------
+sudo su postgres
+----------------
+Create database, create required postgresql extensions, create a superuser:
+
+----------------
+createdb nodeshot
+psql nodeshot
+CREATE EXTENSION postgis;
+CREATE EXTENSION hstore;
+CREATE USER nodeshot WITH PASSWORD 'your_password';
+ALTER USER nodeshot SUPERUSER;
+----------------

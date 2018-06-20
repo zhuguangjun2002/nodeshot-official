@@ -1,0 +1,34 @@
+摘录在《Mailing》章节
+
+==========================================
+# 如果你需要开发，测试。
+# 你可以使用如下命令，在终端上查看发送的邮件信息：
+-----------------
+python -m smtpd -n -c DebuggingServer localhost:1025
+-----------------
+==========================================
+
+=====================================
+Debugging emails in the shell¶
+在shell中调试电子邮件¶
+
+If you need to test email sending in a development/test environment, you can use a debug SMTP server which will print out the outgoing emails on your terminal shell.
+如果您需要测试在开发/测试环境中发送的电子邮件，则可以使用调试SMTP服务器，该服务器将打印出终端外壳上的外发电子邮件。
+
+First of all, ensure DEBUG = True in your settings.py.
+首先，在`settings.py`中确保`DEBUG = True`。
+
+Then run the debug SMTP server with:
+然后用以下命令运行`调试SMTP服务器`：
+
+-----------------
+python -m smtpd -n -c DebuggingServer localhost:1025
+-----------------
+
+When in DEBUG is True, Nodeshot will send emails to the port 1025 by default.
+当`DEBUG`为`True`时，默认情况下，`Nodeshot`将发送`电子邮件`到`端口1025`。
+
+The email contents and log data will be printed out on your terminal shell, this way you’ll be able to test email related features without sending any real email.
+
+`电子邮件内容`和`日志数据`将打印在`终端外壳`上，这样您就可以在`不发送`任何`真实电子邮件`的情况下`测试``电子邮件`相关功能。
+==========================================

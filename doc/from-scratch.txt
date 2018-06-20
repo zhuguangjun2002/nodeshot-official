@@ -1,0 +1,106 @@
+从头开始创建nodeshot
+
+1.删除旧的数据库
+直接用`pgadminIII`删除数据库`nodeshot`
+=============================================
+
+2. 创建新的数据库
+执行`scripts/create_database.sh`脚本文件。
+`nodeshot`角色，其密码为`nodeshot`。
+
+Create database
+创建数据库
+
+Become postgres user:
+成为postgres用户：
+------------------
+sudo su postgres
+------------------
+
+Create database, create required postgresql extensions, create a superuser:
+创建数据库，创建所需的postgresql扩展，创建一个超级用户：
+--------------------
+createdb nodeshot
+psql nodeshot
+CREATE EXTENSION postgis;
+CREATE EXTENSION hstore;
+CREATE USER nodeshot WITH PASSWORD 'your_password';
+ALTER USER nodeshot SUPERUSER;
+--------------------
+
+exit (press CTRL+D) and go back to being your user:
+退出（按`CTRL + D`）并返回成为您的用户：
+--------------------
+exit
+--------------------
+=============================================
+
+3. Project configuration 项目配置
+
+Open settings.py:
+打开settings.py：
+--------------------
+vim dev/settings.py
+--------------------
+
+And edit the following settings:
+并编辑以下设置：
+--------------------
+DOMAIN: set localhost
+DATABASE['default']['USER']: set nodeshot
+DATABASE['default']['PASSWORD']: set the password chosen during the Create database step
+--------------------
+
+--------------------
+DOMAIN：设置localhost
+DATABASE ['default'] ['USER']：设置nodeshot
+DATABASE ['default'] ['PASSWORD']：设置在创建数据库步骤中选择的密码
+--------------------
+
+Create the database tables and initial data:
+创建`数据库表`和`初始数据`：
+
+--------------------
+# will prompt you to create a superuser, proceed!
+＃会提示你创建一个超级用户，继续！
+./manage.py migrate --no-initial-data && ./manage.py loaddata initial_data
+--------------------
+
+Run the development server:
+运行开发服务器：
+--------------------
+./manage.py runserver
+--------------------
+
+Alternatively, if you need to reach the dev server for other hosts on the same LAN, you can setup the development server to listen on all the network interfaces:
+或者，如果您需要访问同一LAN上其他主机的`开发服务器`，则可以将`开发服务器`设置为在所有网络`接口`上进行`侦听`：
+
+--------------------
+./manage.py runserver 0.0.0.0:8000
+--------------------
+Now you can open your browser at http://localhost:8000/ or at http://localhost:8000/admin/.
+现在，您可以在http://localhost:8000/或http://localhost:8000/admin/中打开浏览器。
+=============================================
+
+
+4. 创建超级管理员
+----------------
+./manage.py createsuperuser
+----------------
+
+5.在终端上，监听邮件发送情况：
+==========================================
+# 如果你需要开发，测试。
+# 你可以使用如下命令，在终端上查看发送的邮件信息：
+-----------------
+python -m smtpd -n -c DebuggingServer localhost:1025
+-----------------
+==========================================
+
+6. 运行'开发服务器'
+------------------
+./manage.py runserver
+------------------
+将监听的邮件里面的注册链接，拷贝到浏览器上，以便进行邮件认证。
+
+
